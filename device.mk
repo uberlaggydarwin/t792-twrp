@@ -14,12 +14,12 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/zte/p810
+LOCAL_PATH := device/zte/t792
 
 $(call inherit-product, $(SRC_TARGET_DIR)/product/languages_full.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 $(call inherit-product-if-exists, frameworks/native/build/phone-hdpi-dalvik-heap.mk)
-$(call inherit-product-if-exists, vendor/zte/p810/p810-vendor.mk)
+$(call inherit-product-if-exists, vendor/zte/pt792/t792-vendor.mk)
 
 # Use a prebuilt dt.img
 PRODUCT_COPY_FILES += \

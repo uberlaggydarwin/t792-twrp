@@ -1,9 +1,9 @@
 USE_CAMERA_STUB := true
 
 # inherit from the proprietary version
--include vendor/lge/p810/BoardConfigVendor.mk
+-include vendor/lge/t792/BoardConfigVendor.mk
 
-LOCAL_PATH := device/zte/p810
+LOCAL_PATH := device/zte/t792
 
 # platform
 TARGET_ARCH := arm
@@ -22,7 +22,7 @@ BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_PAGESIZE := 2048
 BOARD_KERNEL_SEPARATED_DT := true
 TARGET_PREBUILT_KERNEL := $(LOCAL_PATH)/recovery/kernel
-BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/zte/p810/recovery/dt.img
+BOARD_MKBOOTIMG_ARGS := --ramdisk_offset 0x01000000 --tags_offset 0x00000100 --dt device/zte/t792/recovery/dt.img
 
 # Partitions
 BOARD_BOOTIMAGE_PARTITION_SIZE := 23068672

@@ -21,13 +21,13 @@
 # lines, full and maguro, hence its name.
 #
 
-# Inherit p810-specific vendor tree
-$(call inherit-product-if-exists, vendor/zte/p810/p810-vendor.mk)
+# Inherit t792-specific vendor tree
+$(call inherit-product-if-exists, vendor/zte/t792/t792-vendor.mk)
 
-# Inherit from p810
-$(call inherit-product, device/zte/p810/device.mk)
+# Inherit from t792
+$(call inherit-product, device/zte/t792/device.mk)
 
-PRODUCT_NAME := full_p810
-PRODUCT_DEVICE := p810
+PRODUCT_NAME := full_t792
+PRODUCT_DEVICE := t792
 PRODUCT_BRAND := zte
 PRODUCT_MANUFACTURER := zte
